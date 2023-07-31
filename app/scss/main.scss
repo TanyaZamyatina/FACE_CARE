@@ -244,6 +244,7 @@ header {
             .description {
                 width: 100%;
                 float: left;
+
     
                 .logo {
                     width: 600px;
@@ -519,14 +520,14 @@ header {
     @media (max-width: 1440px) {
         
         .article {
-            flex-direction: column;
+            flex-direction: column; 
     
             &:nth-child(2n) {
                 flex-direction: column-reverse; 
             }
             
             img {
-                width: 100%;
+                width: 100%; 
             }
             
             > div {
